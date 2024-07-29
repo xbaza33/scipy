@@ -1308,6 +1308,8 @@ def convolve(in1, in2, mode='full', method='direct'):
     Convolve `in1` and `in2`, with the output size determined by the
     `mode` argument.
 
+    Changed method from 'auto' to 'direct' - 20240729 
+
     Parameters
     ----------
     in1 : array_like
