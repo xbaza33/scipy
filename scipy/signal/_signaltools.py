@@ -1301,7 +1301,7 @@ def choose_conv_method(in1, in2, mode='full', measure=False):
     return 'direct'
 
 
-def convolve(in1, in2, mode='full', method='auto'):
+def convolve(in1, in2, mode='full', method='direct'):
     """
     Convolve two N-dimensional arrays.
 
